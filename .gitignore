@@ -1,0 +1,45 @@
+# Runtime data, local uploads, generated reports, caches, and backups
+data/
+!data/.gitkeep
+reference_letters/
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.sql.gz
+*.bundle
+*.zip
+*.tar
+*.tar.gz
+*.pfx
+*.p12
+*.doc
+*.docx
+*.docm
+*.pdf
+
+# Python caches
+__pycache__/
+scripts/__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*_rsa
+*_dsa
+*_ecdsa
+*_ed25519
+
+# Local OS/editor noise
+.DS_Store
+.idea/
+.vscode/
